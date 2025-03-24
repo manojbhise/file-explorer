@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.file {
+  display: flex;
+  margin-top: 6px;
+  padding-left: 6px;
+}
+
+.folder {
+  width: 300px;
+  padding: 6px;
+  display: flex;
+  margin-top: 6px;
+  cursor: pointer;
+  background-color: rgb(200, 200, 200);
+  justify-content: space-between;
+}
+
+.buttons {
+  width: 50%;
+}
+
+button {
+  cursor: pointer;
+  margin-left: 10px;
+  border: none;
+  padding: 7px 8px;
+  background-color: skyblue;
+}
+
+.input-container {
+  display: flex;
+  padding-left: 6px;
+}
